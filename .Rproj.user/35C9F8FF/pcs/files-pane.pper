@@ -1,0 +1,9 @@
+{
+    "path" : "/mnt/analysis1/functionjunction/man",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
