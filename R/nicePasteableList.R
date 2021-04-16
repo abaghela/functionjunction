@@ -12,6 +12,6 @@
 #' @export
 
 
-nicePasteableList <- function (char_vector) {
-  return(cat(noquote(as.character(char_vector)), sep = "\n"))
+nicePasteableList <- function (c_vector) {
+  return(cat(noquote(as.character(c_vector)), sep = "\n"))
 }

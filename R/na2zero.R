@@ -1,4 +1,4 @@
-#' @title functionjunction
+#' @title na2zero
 #'
 #' @description Turn NAs in a dataframe to zeroes
 #'
@@ -14,8 +14,9 @@
 #' @export
 
 
-na2zero <- function(dataframe) {
+na2zero <- function(mat) {
 
-  dataframe[is.na(dataframe)] <- 0
-  return(dataframe)
+  mat[is.na(mat)] <- 0
+  return(mat)
 }
+
