@@ -4,7 +4,7 @@
 \alias{reactome_pathway_enrichment}
 \title{reactome_pathway_enrichment}
 \usage{
-reactome_pathway_enrichment(gene_list, background_genes, p_val = 0.05)
+reactome_pathway_enrichment(gene_list, background_genes = NULL, p_val = 0.05)
 }
 \arguments{
 \item{p_val}{}
